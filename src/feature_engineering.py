@@ -10,6 +10,9 @@ def load_merged_data(path='outputs/merged_data.csv'):
     return df
 
 def create_features(df):
+    # Timestamp kolonunu daima datetime'a çevir (gelen veri string ise hata olmasın)
+    if df['timestamp'].dtype == 'O' or isinstance(df['timestamp'].iloc[0], str):
+        df['timestamp'] = pd.to_datetime(df['timestamp'])
     # Kullanıcı başına olay sayıları
     event_counts = df.pivot_table(index='user_id', columns='event_type', values='timestamp', aggfunc='count').fillna(0)
     event_counts.columns = [f'count_{col}' for col in event_counts.columns]
