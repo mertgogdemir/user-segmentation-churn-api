@@ -70,9 +70,9 @@ Pipfile.lock
 .env.*
 
 # Model artifacts
-models/
+# models/
 outputs/
-*.joblib
+# *.joblib
 
 # Streamlit temp
 .streamlit/
