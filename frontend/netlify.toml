@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[dev]
+  command = "npm start"
+
+# Vercel için özel ayar gerekmiyor, bu dosya Netlify içindir ama deployment sürecinde otomatik tespit için gereklidir.

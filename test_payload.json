@@ -1,0 +1,31 @@
+{
+  "events": [
+    {
+      "user_id": "u1",
+      "event_type": "login",
+      "timestamp": "2025-04-30T21:00:00",
+      "plan_type": "Basic",
+      "country": "Turkey",
+      "device_type": "Mobile",
+      "industry": "E-commerce"
+    },
+    {
+      "user_id": "u1",
+      "event_type": "payment_success",
+      "timestamp": "2025-04-30T21:05:00",
+      "plan_type": "Basic",
+      "country": "Turkey",
+      "device_type": "Mobile",
+      "industry": "E-commerce"
+    },
+    {
+      "user_id": "u2",
+      "event_type": "login",
+      "timestamp": "2025-04-30T20:00:00",
+      "plan_type": "Premium",
+      "country": "Germany",
+      "device_type": "Desktop",
+      "industry": "Finance"
+    }
+  ]
+}

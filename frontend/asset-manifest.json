@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/ikaschurnnew/static/css/main.ceddf922.css",
+    "main.js": "/ikaschurnnew/static/js/main.46e3a5a1.js",
+    "static/js/952.c730f37f.chunk.js": "/ikaschurnnew/static/js/952.c730f37f.chunk.js",
+    "static/js/453.d855a71b.chunk.js": "/ikaschurnnew/static/js/453.d855a71b.chunk.js",
+    "index.html": "/ikaschurnnew/index.html",
+    "main.ceddf922.css.map": "/ikaschurnnew/static/css/main.ceddf922.css.map",
+    "main.46e3a5a1.js.map": "/ikaschurnnew/static/js/main.46e3a5a1.js.map",
+    "952.c730f37f.chunk.js.map": "/ikaschurnnew/static/js/952.c730f37f.chunk.js.map",
+    "453.d855a71b.chunk.js.map": "/ikaschurnnew/static/js/453.d855a71b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ceddf922.css",
+    "static/js/main.46e3a5a1.js"
+  ]
+}
